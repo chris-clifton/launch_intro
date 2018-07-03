@@ -1,0 +1,31 @@
+# Common Array Methods
+
+.include? == checks to see if argument given is included in array
+
+.flatten == turns array with nested array into a one-dimensional array
+
+.each_index == iterates through array but variable represents index number not value
+
+.each_with_index == gives value and index in that order
+
+.sort == orders an array
+
+.product == combine two arrays in an interesting way
+
+.each = simple way to iterate over collection, easier than using a for loop
+
+.map/.collect == iterates over array applying a block to each element
+
+.pop == removes last element of array
+
+.push == adds element to end of array
+
+.unshift == inserts element at beginning of array
+
+.delete_at(index) == delete element at the index given in parameter
+
+.delete(value) == delete the specific value from the array
+
+.uniq == deletes any duplicate values in array
+
+.select { } == selects elements of array that evaluate to true with provided expression
